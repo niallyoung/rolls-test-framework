@@ -51,32 +51,25 @@ lint:
 	pylint -E python/
 
 test:
+	@echo "# make test-single"
+	export PYTHONPATH=$(PYTHONPATH) && \
+	export PROJECT_ROOT=$(PROJECT_ROOT) && \
+	source .venv/bin/activate && \
+	pytest -n 1 python/test --show-capture=stdout --random-order-bucket=global
+
+test-parallel:
 	@echo "# make test"
 	export PYTHONPATH=$(PYTHONPATH) && \
 	export PROJECT_ROOT=$(PROJECT_ROOT) && \
 	source .venv/bin/activate && \
 	pytest -n auto --show-capture=stdout python/test
 
-test-single:
-	@echo "# make test-single"
-	export PYTHONPATH=$(PYTHONPATH) && \
-	export PROJECT_ROOT=$(PROJECT_ROOT) && \
-	source .venv/bin/activate && \
-	pytest -n 1 python/test --random-order-bucket=global
-
 test-cover:
 	@echo "# make test-cover"
 	export PYTHONPATH=$(PYTHONPATH) && \
 	export PROJECT_ROOT=$(PROJECT_ROOT) && \
 	source .venv/bin/activate && \
-	pytest -n auto --cov=python/src --cov-report=term python/test
-
-test-local-ci:
-	@echo "# make test-local-ci"
-	export PYTHONPATH=$(PYTHONPATH) && \
-	export PROJECT_ROOT=$(PROJECT_ROOT) && \
-	source .venv/bin/activate && \
-	pytest -f -n auto python/test
+	pytest -n 1 --cov=python/src --cov-report=term python/test
 
 run:
 	@echo "# make run"
