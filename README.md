@@ -7,6 +7,10 @@ Test automation harness for https://coldcardwallet.com/docs/rolls.py
 Quickly build up a test-data set of known dice rolls => seeds, to assist with physical verification of hardware wallets
 incorporating compatible dice-roll logic in their firmware.
 
+### Requirements
+
+python3, poetry, make
+
 ### Usage
 
 ```make```
