@@ -1,0 +1,26 @@
+380b4863f69ebaacc794bfa1742a8a6ddc575e8cf0ded4341ab9da158881ea2d
+
+   1: day
+   2: fog
+   3: body
+   4: unfold
+   5: two
+   6: filter
+   7: bundle
+   8: obey
+   9: pause
+  10: pattern
+  11: penalty
+  12: sweet
+  13: shell
+  14: quantum
+  15: critic
+  16: bridge
+  17: stage
+  18: patch
+  19: purpose
+  20: reflect
+  21: flat
+  22: domain
+  23: post
+  24: produce

@@ -1,0 +1,26 @@
+53dd550a6115c2bc5fd79055ae9b6ee62bf88fb3a75af41ef078afd344ffbd7d
+
+   1: fatigue
+   2: turkey
+   3: dream
+   4: season
+   5: found
+   6: funny
+   7: leg
+   8: velvet
+   9: fiber
+  10: inquiry
+  11: sweet
+  12: slush
+  13: sauce
+  14: elephant
+  15: soldier
+  16: twice
+  17: village
+  18: wasp
+  19: bullet
+  20: garden
+  21: crowd
+  22: lemon
+  23: vote
+  24: profit
