@@ -29,7 +29,7 @@ describe:
 
 clean:
 	@echo "# make clean"
-	rm -rf .venv
+	rm -rf .venv .coverage
 
 venv:
 	@echo "# make venv"
