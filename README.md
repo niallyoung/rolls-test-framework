@@ -19,10 +19,9 @@ Tested and run on macOS - should be portable, but note `Dockerfile` is planned i
 
 ### TODO
 
-1. fixtures/(input|output)/* : known inputs => make run : compare to known outputs
-2. start capturing CHECKSUMS.md for current python/src/rolls.py
-3. update to latest rolls.py, update CHECKSUMS.md, verify
-4. Dockerfile
+1. start capturing CHECKSUMS.md for current python/src/rolls.py
+2. update to latest rolls.py, update CHECKSUMS.md, verify
+3. Dockerfile
 
 ### Source
 
