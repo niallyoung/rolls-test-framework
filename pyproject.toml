@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "rolls"
+name = "rolls-test-harness"
 version = "0.1.1"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Niall Young <5465765+niallyoung@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
