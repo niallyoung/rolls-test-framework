@@ -23,9 +23,7 @@ Tested and run on macOS - should be portable, but note `Dockerfile` is planned i
 
 ### TODO
 
-1. start capturing CHECKSUMS.md for current python/src/rolls.py
-2. update to latest rolls.py, update CHECKSUMS.md, verify
-3. Dockerfile
+1. Dockerfile
 
 ### Source
 
